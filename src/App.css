@@ -2,37 +2,88 @@
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.signup-form{
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  gap:16px;
+  max-width: 400px;
+  margin:0 auto;
 }
 
-.App-link {
-  color: #61dafb;
+.login-form{
+  display: flex;
+  flex-direction: column;
+  gap:16px;
+  max-width: 400px;
+  margin:0 auto;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.space-tag-1{
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.space-tag-2{
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.forgert-password{
+  display: flex;
+  flex-direction: column;
+  gap:16px;
+  max-width: 400px;
+  margin:0 auto;
+}
+
+
+.container {
+	display: grid;
+	grid-template-columns: 7fr 3fr;
+}
+
+.myId {
+	margin-right: 5rem;
+	border-radius: 5px;
+	background: #c9d6ff; 
+	background: -webkit-linear-gradient(to right, #e2e2e2, #c9d6ff);
+	background: linear-gradient(
+		to right,
+		#e2e2e2,
+		#c9d6ff
+	); 
+
+	padding: 2rem;
+	display: grid;
+	justify-content: center;
+	align-content: center;
+}
+
+.call-button {
+	text-align: center;
+	margin-top: 2rem;
+}
+
+.video-container {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	justify-content: center;
+	align-content: center;
+	margin-top: 10rem;
+	margin-left: 10rem;
+}
+
+.caller {
+	text-align: center;
+	color: #fff;
+}
+
+body {
+	background: #4776e6; 
+	background: -webkit-linear-gradient(to right, #9670d3, #718ac2); 
+	background: linear-gradient(
+		to right,
+		#b19fcf,
+		#6487d8
+	); 
 }
